@@ -33,6 +33,12 @@ function increment(n){
   return n
 }
 
+function decrement(n){
+  n--
+  return n
+}
+
+
 console.log(increment(1))
 
 
