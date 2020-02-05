@@ -38,7 +38,10 @@ function decrement(n){
   return n
 }
 
+function makeInt(string){
+  return parseInt(string, 10)
+}
 
-console.log(increment(1))
-
-
+function preserveDecimal(string){
+  return parseFloat(string)
+}
