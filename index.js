@@ -29,7 +29,8 @@ console.log(number)
 */
 
 function increment(n){
-  return n++
+  n++
+  return n
 }
 
 console.log(increment(1))
